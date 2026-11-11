@@ -31,6 +31,7 @@ def render_arrival_report(settings):
 <body class="arrival-page">
 <header class="arrival-hero">
   <div class="arrival-shell">
+    <a class="arrival-back-link" id="back-to-simulation" href="../index.html"><span aria-hidden="true">←</span> 返回整体仿真</a>
     <p class="arrival-eyebrow">S01 · 合成数据演示</p>
     <h1>S01 批处理合成演示</h1>
     <p class="arrival-hero-note">使用虚构订单和工时，比较立即启动与限时等单的结果。</p>

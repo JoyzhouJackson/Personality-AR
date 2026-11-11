@@ -39,6 +39,22 @@
 .arrival-hero h1 { margin: 0 0 8px; font-size: clamp(25px, 4vw, 36px); letter-spacing: -.025em; }
 .arrival-hero p { color: #d4e9db; }
 .arrival-hero p:last-child { margin-bottom: 0; }
+.arrival-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  margin-bottom: 16px;
+  padding: 7px 14px;
+  border: 1px solid #ffffff80;
+  border-radius: 8px;
+  color: #fff;
+  background: #ffffff12;
+  font-weight: 650;
+  text-decoration: none;
+}
+.arrival-back-link:hover { background: #ffffff26; }
+.arrival-back-link:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
 #arrival-lab { display: grid; gap: 16px; padding-block: 22px 44px; scroll-margin-top: 12rem; }
 .arrival-lab-form { display: grid; gap: 16px; min-width: 0; margin: 0; }
@@ -289,6 +305,7 @@
 <body class="arrival-page">
 <header class="arrival-hero">
   <div class="arrival-shell">
+    <a class="arrival-back-link" id="back-to-simulation" href="../index.html"><span aria-hidden="true">←</span> 返回整体仿真</a>
     <p class="arrival-eyebrow">S01 · 合成数据演示</p>
     <h1>S01 批处理合成演示</h1>
     <p class="arrival-hero-note">使用虚构订单和工时，比较立即启动与限时等单的结果。</p>
