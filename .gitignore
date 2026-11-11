@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+scheduling/outputs/
+
+# Only the synthetic fixture and illustration belong in this public demo.
+private/
+private-data/
+private-backups/
+local-data/
+raw-data/
+*.local.json
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.docx
+/scheduling/inputs/*
+!/scheduling/inputs/synthetic-orders.xlsx
+/assets/*
+!/assets/synthetic-layout.webp
